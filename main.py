@@ -99,7 +99,7 @@ def display_user_info(infos):
     print(f"Is private Account     : {infos['is_private']}")
     print(f"Follower               : {infos['follower_count']} | Following : {infos['following_count']}")
     print(f"Number of posts        : {infos['media_count']}")
-    print(f"External url        : {infos['external_url']}")    
+    print(f"External url           : {infos['external_url']}")    
     print(f"IGTV posts             : {infos['total_igtv_videos']}")
     print(f"Biography              : {(f'''\n{' ' * 25}''').join(infos.get('biography', '').split('\n'))}")
     
